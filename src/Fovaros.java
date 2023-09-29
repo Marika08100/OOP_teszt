@@ -32,6 +32,6 @@ public class Fovaros extends Varos {
     @Override
     public String toString() {
         String megfelelo = Megfelelonev() ? "Igen" : "Nem";
-        return "Név: " + getFovaros()+ " ,Lakossága: " +getLakossag() + " ,Szennyezettség: " + getSzenyezetseget() + " ,Metrók száma: " +getMetrokSzama() + " ,Megfelelő: " + megfelelo;
+        return "Név: " + getNev()+ ", Lakossága: " +getLakossag() + ", Szennyezettség: " + getSzenyezetseget() + ", Metrók száma: " +getMetrokSzama() + ", Megfelelő: " + megfelelo;
     }
 }

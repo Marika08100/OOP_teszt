@@ -12,7 +12,9 @@ public class Varos {
     }
 
     public boolean Megfelelonev() {
-        return (getLakossag() < 100000 && fovaros.getSzenyezetseget() < 50 && fovaros.getMetrokSzama() > 5);
+        return (getLakossag() < 100000
+                && fovaros.getSzenyezetseget() < 50
+                && fovaros.getMetrokSzama() > 5);
     }
 
     public String getNev() {
