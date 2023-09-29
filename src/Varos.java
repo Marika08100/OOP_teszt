@@ -10,6 +10,11 @@ public class Varos {
         this.lakossag = lakossag;
     }
 
+    public void Megfelelonev() {
+        //majd jon valami
+
+    }
+
     public String getNev() {
         return nev;
     }
@@ -25,7 +30,10 @@ public class Varos {
     public void setLakossag(int lakossag) {
         this.lakossag = lakossag;
     }
-    public void Megfelelonev(){
 
+    @Override
+    public String toString() {
+        return "Név: " + nev +
+                ", Lakosság:" + lakossag;
     }
 }

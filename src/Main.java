@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Varos varos = new Varos("Szekelyudvarhely", 34000);
+        System.out.println(varos.toString());
     }
 }
