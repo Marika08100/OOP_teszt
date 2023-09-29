@@ -28,4 +28,10 @@ public class Fovaros extends Varos {
     public void setMetrokSzama(int metrokSzama) {
         this.metrokSzama = metrokSzama;
     }
+
+    @Override
+    public String toString() {
+        String megfelelo = Megfelelonev() ? "Igen" : "Nem";
+        return "Név: " + getFovaros()+ " ,Lakossága: " +getLakossag() + " ,Szennyezettség: " + getSzenyezetseget() + " ,Metrók száma: " +getMetrokSzama() + " ,Megfelelő: " + megfelelo;
+    }
 }
