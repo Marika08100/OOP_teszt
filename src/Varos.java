@@ -10,9 +10,8 @@ public class Varos {
         this.lakossag = lakossag;
     }
 
-    public void Megfelelonev() {
-        //majd jon valami
-
+    public boolean Megfelelonev() {
+return false;
     }
 
     public String getNev() {

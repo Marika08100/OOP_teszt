@@ -12,4 +12,20 @@ public class Fovaros extends Varos {
         this.szenyezetseget = szenyezetseget;
         this.metrokSzama = metrokSzama;
     }
+
+    public int getSzenyezetseget() {
+        return szenyezetseget;
+    }
+
+    public void setSzenyezetseget(int szenyezetseget) {
+        this.szenyezetseget = szenyezetseget;
+    }
+
+    public int getMetrokSzama() {
+        return metrokSzama;
+    }
+
+    public void setMetrokSzama(int metrokSzama) {
+        this.metrokSzama = metrokSzama;
+    }
 }
