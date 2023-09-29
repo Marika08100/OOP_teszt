@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcea528d-3ed1-4f55-a9ec-c3b6505c8bb6" name="Changes" comment="create getter and setter">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="fcea528d-3ed1-4f55-a9ec-c3b6505c8bb6" name="Changes" comment="modify Megfelelonev method">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Varos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Varos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,12 +56,39 @@
       <option name="project" value="LOCAL" />
       <updated>1695998468205</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="override toString method">
+      <option name="closed" value="true" />
+      <created>1695998666787</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695998666787</updated>
+    </task>
+    <task id="LOCAL-00003" summary="create 'fovaros' class">
+      <option name="closed" value="true" />
+      <created>1695998815443</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695998815443</updated>
+    </task>
+    <task id="LOCAL-00004" summary="modify Megfelelonev method">
+      <option name="closed" value="true" />
+      <created>1695998935132</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695998935132</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create Megfelelonevu method" />
     <MESSAGE value="create getter and setter" />
-    <option name="LAST_COMMIT_MESSAGE" value="create getter and setter" />
+    <MESSAGE value="override toString method" />
+    <MESSAGE value="create 'fovaros' class" />
+    <MESSAGE value="modify Megfelelonev method" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify Megfelelonev method" />
   </component>
 </project>

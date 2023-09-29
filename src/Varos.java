@@ -1,6 +1,7 @@
 public class Varos {
     private String nev;
     private int lakossag;
+    private Fovaros fovaros;
 
     public Varos() {
     }
@@ -11,7 +12,7 @@ public class Varos {
     }
 
     public boolean Megfelelonev() {
-return false;
+        return (getLakossag() < 100000 && fovaros.getSzenyezetseget() < 50 && fovaros.getMetrokSzama() > 5);
     }
 
     public String getNev() {
@@ -28,6 +29,14 @@ return false;
 
     public void setLakossag(int lakossag) {
         this.lakossag = lakossag;
+    }
+
+    public Fovaros getFovaros() {
+        return fovaros;
+    }
+
+    public void setFovaros(Fovaros fovaros) {
+        this.fovaros = fovaros;
     }
 
     @Override
